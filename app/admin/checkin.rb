@@ -1,4 +1,5 @@
 ActiveAdmin.register Checkin do
+  permit_params :latitude, :longitude
 
   
   # See permitted parameters documentation:
